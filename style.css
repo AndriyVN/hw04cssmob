@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
 header {
     background-color: #59323c;
     font-family: segoe-script;
     color: #f2eeb3;
+    height: 100px;
 }
 header img {
     border-radius: 50%;
@@ -11,5 +16,33 @@ header h1 {
     text-align: center;
 }
 header h2 {
-    text-align: right
+    text-align: right;
+}
+main {
+    height: 400px;
+}
+nav {
+    width: 25%;
+    height: 400px;
+    float: left;
+    background-color: #bfaf80;
+    overflow: hidden;
+}
+article {
+    width: 50%;
+    height: 400px;
+    background-color: #f2eeb3;
+    text-align: center;
+    overflow: hidden;
+}
+aside {
+    width: 25%;
+    height: 400px;
+    background-color: #8c6954;
+    float: right;
+    overflow: hidden;
+}
+footer {
+    height: 100px;
+    background-color: #260126;
 }
