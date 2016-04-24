@@ -1,0 +1,15 @@
+header {
+    background-color: #59323c;
+    font-family: segoe-script;
+    color: #f2eeb3;
+}
+header img {
+    border-radius: 50%;
+    border-color: #bfaf80;
+}
+header h1 {
+    text-align: center;
+}
+header h2 {
+    text-align: right
+}
