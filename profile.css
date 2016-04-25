@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+header {
+    background-color: #59323c;
+    height: 100px;
+    max-width: 100%;
+    min-width: 40%;
+}
+article {
+    height: 400px;
+    width: 50%;
+    float: left;
+    background-color: #f2eeb3;
+    text-align: center;
+}
+aside {
+    height: 400px;
+    width: 50%;
+    float: right;
+    background-color: #8c6954;
+}
+#logo {
+    width: 45px;
+    height: 45px;
+    border: 4px;
+    border-radius: 50%;
+    border-color: #260126;
+}
+footer {
+    height: 100px;
+    background-color: #260126;
+    max-width: 100%;
+    min-width: 400px;
+    color: #f2eeb3;
