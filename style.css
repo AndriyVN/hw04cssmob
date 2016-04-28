@@ -2,15 +2,19 @@
     margin: 0;
     padding: 0;
     }
+
+body {
+    height: 100%;
+}
 header {
-    background-color: #59323c;
     font-family: segoe-script;
     color: #f2eeb3;
-    height: 100px;
+    height: 15%;
     max-width: 100%;
     min-width: 40%;
 }
 header img {
+    border: 10px;
     border-radius: 50%;
     border-color: #bfaf80;
 }
@@ -21,32 +25,28 @@ header h2 {
     text-align: right;
 }
 main {
-    height: 400px;
+    height: 75%;
 }
 nav {
     width: 25%;
-    height: 400px;
+    height: 75%;
     float: left;
-    background-color: #bfaf80;
     overflow: hidden;
 }
 article {
     width: 50%;
-    height: 400px;
-    background-color: #f2eeb3;
+    height: 75%;
     text-align: center;
     overflow: hidden;
 }
 aside {
     width: 25%;
-    height: 400px;
-    background-color: #8c6954;
+    height: 75%;
     float: right;
     overflow: hidden;
 }
 footer {
     height: 100px;
-    background-color: #260126;
     max-width: 100%;
     min-width: 400px;
     color: #f2eeb3;
